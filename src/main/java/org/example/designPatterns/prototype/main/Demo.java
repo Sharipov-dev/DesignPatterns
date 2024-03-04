@@ -1,9 +1,9 @@
 package org.example.designPatterns.prototype.main;
 
-import org.example.designPatterns.prototype.shapes.Bike;
-import org.example.designPatterns.prototype.shapes.Car;
-import org.example.designPatterns.prototype.shapes.Truck;
-import org.example.designPatterns.prototype.shapes.Vehicle;
+import org.example.designPatterns.prototype.vehicle.Bike;
+import org.example.designPatterns.prototype.vehicle.Car;
+import org.example.designPatterns.prototype.vehicle.Truck;
+import org.example.designPatterns.prototype.vehicle.Vehicle;
 
 public class Demo {
     public static void main(String[] args) {

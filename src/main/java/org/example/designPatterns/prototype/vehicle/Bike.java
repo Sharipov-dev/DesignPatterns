@@ -1,4 +1,4 @@
-package org.example.designPatterns.prototype.shapes;
+package org.example.designPatterns.prototype.vehicle;
 
 public class Bike extends Vehicle{
     private int numberOfWheels;

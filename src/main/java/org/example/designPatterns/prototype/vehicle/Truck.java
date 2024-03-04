@@ -1,4 +1,4 @@
-package org.example.designPatterns.prototype.shapes;
+package org.example.designPatterns.prototype.vehicle;
 
 public class Truck extends Vehicle{
     private String trailerType;
