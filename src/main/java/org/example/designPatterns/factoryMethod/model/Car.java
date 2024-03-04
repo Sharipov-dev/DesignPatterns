@@ -1,13 +1,13 @@
-package org.example.designPatterns.FactoryMethod.model;
+package org.example.designPatterns.factoryMethod.model;
 
-public class Truck implements Vehicle{
+public class Car implements Vehicle{
     private String model;
     private int speed;
-    public Truck(){
+
+    public Car(){
 
     }
-
-    public Truck(String model, int speed) {
+    public Car(String model, int speed) {
         this.model = model;
         this.speed = speed;
     }
