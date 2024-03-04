@@ -1,4 +1,4 @@
-package org.example.designPatterns;
+package org.example.designPatterns.Singleton;
 
 /*
 Singleton Pattern allows us to make sure that the instance
