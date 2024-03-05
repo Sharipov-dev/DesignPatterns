@@ -1,30 +1,31 @@
-package org.example.solid.singleResponsibility;
+package org.example.solid.singleResponsibility.firstExample;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class AdminManager {
-    Map<Integer, String> admins;
+public class UserManager {
+    Map<Integer, String> users;
     public static int numberOfUsers = 0;
 
-    public AdminManager(){
-       admins = new HashMap<>();
+    public UserManager(){
+        users = new HashMap<>();
     }
     public void addUser(String name){
-        admins.put(numberOfUsers,name);
+        users.put(numberOfUsers,name);
         numberOfUsers++;
     }
     public boolean deleteById(int id){
-        String foundUser = admins.remove(id);
+        String foundUser = users.remove(id);
         if (foundUser == null) return false;
         return true;
     }
 
     public boolean updateById(int id, String name){
-        if(!admins.containsKey(id)) return false;
+        if(!users.containsKey(id)) return false;
         else{
-            admins.put(id, name);
+            users.put(id, name);
             return true;
         }
     }
+
 }

@@ -1,0 +1,1 @@
+This example shows the explicit example of single responsibility principle. Each of the class is responsible for each task. EmailSender sends emails, GlobalStorage contains orders. OrderProcessor is responsible for processing orders. OrderSaving saves order.
