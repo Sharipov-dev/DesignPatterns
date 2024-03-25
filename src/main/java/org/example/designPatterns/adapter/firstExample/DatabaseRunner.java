@@ -1,4 +1,4 @@
-package org.example.designPatterns.adapter;
+package org.example.designPatterns.adapter.firstExample;
 
 public class DatabaseRunner {
     public static void main(String[] args) {

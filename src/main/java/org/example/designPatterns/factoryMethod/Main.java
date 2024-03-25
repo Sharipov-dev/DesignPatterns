@@ -18,5 +18,6 @@ public class Main {
         car.run();
         truck.run();
 
+
     }
 }
